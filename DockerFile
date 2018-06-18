@@ -1,0 +1,5 @@
+FROM ubuntu
+MAINTAINER Vivek vivekranjan1115@gmail.com
+RUN apt update && apt-get install apache2
+EXPOSE 80
+CMD apchectl -D FOREGROUND
